@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/admin_board"
+        android:enabled="true"
+        android:icon="@drawable/menu"
+        android:title="게시판" />
+
+    <item
+        android:id="@+id/admin_chat"
+        android:enabled="true"
+        android:icon="@android:drawable/sym_action_chat"
+        android:title="채팅" />
+    <item
+        android:id="@+id/admin_manage"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="관리" />
+</menu>

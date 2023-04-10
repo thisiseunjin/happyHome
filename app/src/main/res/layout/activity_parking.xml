@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:weightSum="12">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="bottom|center_horizontal"
+            android:text="주차 시설 현황"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="0.1"
+            app:srcCompat="@drawable/bar" />
+
+        <TextView
+            android:id="@+id/name_parking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            android:gravity="bottom|center_horizontal"
+            android:text="#주차장 이름#"
+            android:textColor="#1D4A1F"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="15">
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="108dp"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:gravity="right"
+                android:text="총 주차 공간의 수"
+                android:textColor="#000000"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/max_num_p"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:gravity="right"
+                android:text="####"
+                android:textColor="#000000"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:text=" 대"
+                android:textColor="#000000"
+                android:textSize="26sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="15">
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="108dp"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:gravity="right"
+                android:text="현재 차량의 수"
+                android:textColor="#000000"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/state_p"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:gravity="right"
+                android:text="####"
+                android:textColor="#000000"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:text=" 대"
+                android:textColor="#000000"
+                android:textSize="26sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="60dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/car" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="15">
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:gravity="right"
+                android:text="남은 주차 공간의 수"
+                android:textColor="#000000"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/num_p"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:gravity="right"
+                android:text="#"
+                android:textColor="#BF0000"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:text=" 개"
+                android:textColor="#000000"
+                android:textSize="26sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

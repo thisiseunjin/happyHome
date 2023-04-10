@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".Fragment_adminManage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_weight="6"
+                android:src="@drawable/logo"
+                app:srcCompat="@drawable/logo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:gravity="top"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/park_admin_btF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="주차 시설 관리"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    app:backgroundTint="@null" />
+
+                <Button
+                    android:id="@+id/facility_admin_btF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="편의 시설 관리"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    app:backgroundTint="@null" />
+
+                <Button
+                    android:id="@+id/codeInit_admin_btF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="세대 초기화"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    app:backgroundTint="@null" />
+
+                <Button
+                    android:id="@+id/deviceInit_admin_btF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="장치 초기화"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    app:backgroundTint="@null" />
+
+                <Button
+                    android:id="@+id/logout_admin_btF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:text="로그아웃"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    app:backgroundTint="@null" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

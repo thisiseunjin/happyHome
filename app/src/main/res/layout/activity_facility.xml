@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:weightSum="12">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:gravity="center|center_horizontal"
+            android:text="편의시설 현황"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="0.1"
+            app:srcCompat="@drawable/bar" />
+
+        <TextView
+            android:id="@+id/name_facility"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:gravity="bottom|center_horizontal"
+            android:text="#편의 시설 이름#"
+            android:textColor="#1D4A1F"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="시설 이용 현황"
+            android:textColor="#1D4A1F"
+            android:textSize="28sp" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/icon" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="12">
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="128dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:gravity="right"
+                android:text="최대 사용 인원"
+                android:textColor="#000000"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/max_num_f"
+                android:layout_width="27dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="right"
+                android:text="####"
+                android:textColor="#000000"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:text=" 명"
+                android:textColor="#000000"
+                android:textSize="28sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="12">
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="126dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:gravity="right"
+                android:text="현재 사용 인원"
+                android:textColor="#000000"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/num_f"
+                android:layout_width="27dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="right"
+                android:text="###"
+                android:textColor="#000000"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:text=" 명"
+                android:textColor="#000000"
+                android:textSize="28sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/state_image_f"
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/light1" />
+
+        <TextView
+            android:id="@+id/state_facility"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|top"
+            android:text="#여유#"
+            android:textColor="#000000"
+            android:textSize="26sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
