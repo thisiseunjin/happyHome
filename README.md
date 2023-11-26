@@ -15,8 +15,7 @@
 - 관리인과의 1:1채팅기 가능해집니다.
 - 특정 기준 이상의 소음과 진동이 발생하면 사용자의 휴대폰으로 알림이 갑니다.
 
-# ****🤔 Background****
-
+# 🤔 Background
 
 코로나 19로 인해 집에 있는 시간이 늘어남에 따라 층간 소음 문제가 심해지고 있다는 뉴스를 보았습니다. 저 역시 이 문제에 시달리고 있었기에, 같은 어려움을 겪는 사람들에게 도움을 주고자 해당 앱을 기획하게 되었습니다.
 
@@ -32,10 +31,42 @@
 
 사용자 데이터를 효율적으로 관리하기 위해 Android의 SharedPreference를 활용하여 개발을 진행하였습니다. 이를 통해 사용자의 아이디나 이름뿐만 아니라 동/호수와 같은 다양한 데이터를 저장하고 전달하는 방법을 배웠습니다. 또한, 메인 화면에서 일정 시간마다 데이터를 변경하는 로직을 구현하여 실시간으로 데이터를 가져오는 기능을 개발해봄으로써 안드로이드 개발에 대한 이해도를 더욱 높일 수 있었습니다.
 
-# ****🔨 Technology Stack(s)****
+# 🔨 Technology Stack(s)
 
 - Mobile App : Andriod Studio(JAVA)
 - Database : Firebase Realtime Database
+
+<table>
+<tr>
+ <td align="center">언어</td>
+ <td>
+<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white">
+
+ </td>
+</tr>
+<tr>
+ <td align="center">프레임워크</td>
+ <td>
+  <img src="https://img.shields.io/badge/android studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=ffffff"/>
+</tr>
+
+<tr>
+ <td align="center">데이터 베이스</td>
+ <td>
+    <img src="https://img.shields.io/badge/firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white">
+
+  </td>
+</tr>
+
+<tr>
+ <td align="center">패키지 매니저</td>
+ <td>
+    <img src="https://img.shields.io/badge/gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white">
+
+  </td>
+</tr>
+
+</table>
 
 # 시연 영상
 
