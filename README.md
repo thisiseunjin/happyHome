@@ -33,9 +33,6 @@
 
 # 🔨 Technology Stack(s)
 
-- Mobile App : Andriod Studio(JAVA)
-- Database : Firebase Realtime Database
-
 <table>
 <tr>
  <td align="center">언어</td>
@@ -54,6 +51,14 @@
  <td align="center">데이터 베이스</td>
  <td>
     <img src="https://img.shields.io/badge/firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white">
+
+  </td>
+</tr>
+
+<tr>
+ <td align="center">하드웨어</td>
+ <td>
+    <img src="https://img.shields.io/badge/arduino-00878F?style=for-the-badge&logo=arduino&logoColor=white">
 
   </td>
 </tr>
